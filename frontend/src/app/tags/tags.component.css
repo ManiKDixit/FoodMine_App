@@ -1,0 +1,18 @@
+div {
+    display: flex;
+    justify-content:center ;
+}
+
+a {
+    color: red;
+    padding: .7rem;
+
+}
+
+a:hover {
+    background-color: #FFF7E6;
+    border-radius: 1.2rem;
+    font-size: 1.09rem;
+    
+    
+}

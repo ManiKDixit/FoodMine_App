@@ -1,0 +1,223 @@
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+
+.container > *{
+ min-width: 25rem;
+ max-width: 40rem;
+}
+
+img{
+    border-radius: 3rem;
+    flex:1 0;
+    object-fit: cover;
+    height: 35rem;
+    margin: 1rem;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex:1 0;
+    border-radius: 3rem;
+    padding: 2rem;
+    color: black;
+    margin-left: 1rem;
+}
+
+.details .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details .name{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.details .favorite{
+    color: #e72929;
+    font-size: 2.5rem;
+}
+
+.details .favorite.not{
+    color: gray;
+}
+
+.details .origins{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.details .origins > span{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: .5rem .5rem .5rem 0;
+    border-radius: 2rem;
+    background-color: aliceblue;
+}
+
+.details .cook-time{
+    margin-top: 1rem;
+}
+
+.details .cook-time span{
+    padding: .6rem 2rem .6rem 0;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+}
+
+.details .price{
+    font-size: 1.8rem;
+    margin: 2rem 2rem 2rem 0;
+    color: green;
+}
+
+.details .price::before{
+    content: "Price: ";
+    color: darkgrey;
+}
+
+.details button{
+    color: white;
+    background: #e72929;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    outline: none;
+}
+
+.details button:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+ */
+
+
+ .container {
+    display: flex;
+    justify-content: center;
+   
+ }
+
+ .container img {
+    margin: 5rem;
+    height: 32rem;
+    width: 45rem;
+    border-radius: 3rem;
+
+ }
+
+ .details {
+    margin: 5rem;
+    padding: 3rem;
+    
+ }
+
+
+  .name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+
+
+ }
+
+ .header {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .rating {
+
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+ }
+
+ .favorite {
+    
+    color: red;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    justify-content: space-between;
+ }
+
+
+ .details .favorite.not{
+    color: gray;
+}
+
+
+ .origins {
+    margin-top: 3.2rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    
+ }
+
+ .origins span {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: .5rem .5rem .5rem 0;
+    border-radius: 2rem;
+    background-color: aliceblue;
+ }
+
+ .tags {
+    margin-bottom: 3rem;
+   font-size: 1.3rem;
+   transition: 100ms;
+   flex-wrap: wrap;
+   display: flex;
+   align-items: flex-start;
+
+ }
+
+ .tags a {
+    color: red;
+    margin-right: 1rem;
+ }
+
+ .cook-time {
+    margin-bottom: 2.2rem;
+    font-size: 1.5rem;
+ }
+
+ .price {
+    margin-bottom: 1rem;
+    color: green;
+    font-size: 2rem;
+ }
+
+ .details .price::before{
+    content: "Price: ";
+    color: darkgrey;
+}
+
+ 
+ button {
+    font-size: 1.2rem;
+    background-color: rgb(247, 76, 2);
+    color: white;
+    padding: .9rem;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    width: 25rem;
+    cursor: pointer;
+ }
+
+ button:hover{
+    background-color: rgb(228, 126, 82); 
+    transition: ease-in 100ms;
+    
+ }
+  
